@@ -28,3 +28,8 @@ footer {
     background-color:#D2D2D8;
     color: #1B203D;
 }
+
+@font-face {
+    font-family: Ubuntu, sans-serif;
+    src: url('"https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+}
