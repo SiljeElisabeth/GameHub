@@ -4,9 +4,6 @@ h1 h2 {
     font-family: 'Ubuntu',sans-serif;
 }
 
-p {
-    font-family: 'source sans pro', sans-serif;
-}
 nav li{
 display: inline-block;
 }
@@ -15,6 +12,11 @@ nav a {
     color: #3791A6;
     text-decoration:none;
     padding: 10px;
+    font-family: 'source sans pro', sans-serif;
+}
+
+ul {
+    font-family: 'source sans pro', sans-serif;
 }
 
 nav a:hover {
