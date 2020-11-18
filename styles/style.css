@@ -5,7 +5,7 @@ h1 h2 {
 }
 
 a {
-    font-family: 'source sans pro'
+    font-family: 'source sans pro', sans-serif;
 }
 nav li{
 display: inline-block;
