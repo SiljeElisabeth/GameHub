@@ -1,6 +1,7 @@
 h1 h2 {
     font-size:40px;
     color: #1B203D;
+    font-family: ubuntu,sans-serif;
 }
 nav li{
 display: inline-block;
