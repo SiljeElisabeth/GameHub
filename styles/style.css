@@ -1,7 +1,11 @@
 h1 h2 {
     font-size:40px;
     color: #1B203D;
-    font-family: ubuntu,sans-serif;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+a {
+    font-family: 'source sans pro'
 }
 nav li{
 display: inline-block;
@@ -33,4 +37,7 @@ footer {
 @font-face {
     font-family: 'Ubuntu', sans-serif;
     src: url('"https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+    font-family: 'source sans pro',sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 }
