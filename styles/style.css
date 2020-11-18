@@ -4,11 +4,17 @@ h1 {
 }
 nav li{
 display: inline-block;
-color:blue;
 }
+
+nav a {
+    color:blue;
+    text-decoration:none;
+}
+
 nav ul{
     padding: 5px;
 }
-nav a:hover{
+
+nav a:hover {
     text-decoration: underline;
 }
