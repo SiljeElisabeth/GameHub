@@ -2,3 +2,7 @@ h1 {
     font-size:40px;
     color:darkblue;
 }
+nav li{
+display: inline-block;
+color:blue;
+}
