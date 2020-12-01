@@ -40,5 +40,8 @@ footer {
     color: #1B203D;
 }
 .mainimage {
-    width: 100%
+    background-image: url(playstation controller main picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
 }
