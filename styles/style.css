@@ -39,9 +39,9 @@ footer {
     background-color:#D2D2D8;
     color: #1B203D;
 }
-.mainimage {
-    background-image: url(playstation controller main picture.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-}
+
+ header {
+     background-image: url(playstationcontrollermainpicture.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
