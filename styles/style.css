@@ -40,9 +40,6 @@ footer {
     color: #1B203D;
 }
 
-.welcome_image {
-    background-image: url("../images/playstationcontroller.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.mainimage{
+    width:100%;
 }
