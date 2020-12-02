@@ -31,9 +31,9 @@ nav ul {
 padding: 0px;
 }
 
-.login {
-    padding: 500px;
-} 
+.current {
+    font-weight: bold;
+}
 
 footer {
     background-color:#D2D2D8;
