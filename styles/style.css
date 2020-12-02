@@ -1,6 +1,10 @@
 body {
     font-family: 'source sans pro', sans-serif;
 }
+ .logo {
+     max-width: 100%;
+ }
+
 
 h1 {
     font-size:40px;
@@ -47,3 +51,4 @@ footer {
 .form__input {
     display: block;
 }
+
