@@ -2,30 +2,57 @@
 <html>
 <head>
     <title>GameHub</title>
-    <meta name="description" content="This is an online shop where users can buy and sell computer games">
+    <meta name="description" content="This is your account page">
     <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Game Hub | Account</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href ="styles/style.css" rel="stylesheet">
+    
 </head>
 <body>
 <header>
+    <img src="images/GameHub_Logo.jpg" alt="The Game hub logo">
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="Contact.html">Contact</a></li>
             <li><a href="Games.html">Games</a></li>
-            <li>Sell games</li>
+            <li><a href="Account.html">Sell games</a></li>
+            <li><a href="Createaccount.html" class="login">Log in/Register</a></li>
         </ul>
     </nav>
-</header>
-<main>
-    <h1>GAME HUB</h1>
-    <h2>Account</h2>
-    <p>Here you can view yout account and sell games</p>
+    <main>
+        
+        <form>
+            <fieldset>
+                <legend>Account</legend>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" >
+                <br>
+                <label for="password">Current Password</label>
+                <input type="text" name="username" id="username">
+                <br>
+                <label for="password">Email address</label>
+                <input type="text" name="email" id="email"> 
 
-</main>
-<footer>
-    <h5>About us</h5>
-    <p>Gamehub is an online shop where users can purchase computer games</p>
-    Copyright &copy;
-</footer>
+                <p>Registered as a seller: YES</p>
+            <ul>
+                <li>Adress:Livingerdalen 8B 1345 Gokk</li>
+                <li>Phone number: +4787546345</li>
+                <li>Date of birth: 7/14/1989</li>
+            </ul>
+            
+            </fieldset>
+
+        </form>
+    </main>
+</header>
 </body>
-</html>
+
+    <footer>
+        <p>Gamehub is an online shop where users can purchase computer games</p>
+        Copyright &copy;
+    </footer>
+    </body>
+    </html>
