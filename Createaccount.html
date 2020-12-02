@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GameHub</title>
+    <meta name="description" content="This is an online shop where users can buy and sell computer games">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Game Hub | Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href ="styles/style.css" rel="stylesheet">
+    
+</head>
+<body>
+<header class= "welcome">
+    <img src="images/GameHub_Logo.jpg" alt="The Game hub logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Games.html">Games</a></li>
+            <li>Sell games</li>
+            <li><a href="Createaccount.html" class="login">Log in/Register</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="form-success.php" method="GET">
+            <fieldset>
+                <legend>Sign up with email</legend>
+            <label for="name">Username</label>
+            <input type="text" name="name" id="name" class="form__input" required>
+            <label for="email">Email address</label>
+            <input type="text" name="email" id="email" class="form__input" required>
+            <label for="Password">Password</label>
+            <input type="text" name="password" id="password" class="form__input" required>
+
+            <input type="checkbox" name="Registerasseller" value="registerasseller" id="registerasseller">
+            <label for="registerasseller">Register as seller
+            <br>
+            <input type="checkbox" name="terms" value="terms" id="terms"  required>
+            <label for="terms">I accept the Terms and Conditions and I acknowledge Privacy Policy
+            <input type="checkbox" name="updates" value="updates" id="updates" required>
+            <label for="updates" >Send me the latest updates, discounts and news from Game Hub
+            </fieldset>
+<br>
+                <input type="submit" value="Register">
+
+        </form>
+    </main>
+</header>
+</body>
+    <footer>
+        <p>Gamehub is an online shop where users can purchase computer games</p>
+        Copyright &copy;
+    </footer>
+    </body>
+    </html>
