@@ -39,6 +39,10 @@ padding: 0px;
     font-weight: bold;
 }
 
+main {
+    text-align: center;
+}
+
 footer {
     background-color:#D2D2D8;
     color: #1B203D;
