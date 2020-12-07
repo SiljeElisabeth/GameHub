@@ -2,7 +2,7 @@ body {
     font-family: 'source sans pro', sans-serif;
 }
 header{
-    display: inline-block;
+    display: inline;
 }
  .logo {
      max-width: 100%;
