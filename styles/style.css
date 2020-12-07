@@ -1,9 +1,6 @@
 body {
     font-family: 'source sans pro', sans-serif;
 }
-header{
-    display: inline;
-}
  .logo {
      max-width: 100%;
  }
@@ -42,7 +39,7 @@ padding: 0px;
     font-weight: bold;
 }
 
-.content {
+.center-content {
     text-align: center;
 }
 
