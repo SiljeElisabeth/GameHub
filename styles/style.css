@@ -1,6 +1,9 @@
 body {
     font-family: 'source sans pro', sans-serif;
 }
+header{
+    display: inline-block;
+}
  .logo {
      max-width: 100%;
  }
