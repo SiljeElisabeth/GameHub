@@ -35,6 +35,9 @@ nav ul {
 padding: 0px;
 }
 
+body {
+background-image: url("../images/playstationcontroller.jpg");
+}
 .current {
     font-weight: bold;
 }
