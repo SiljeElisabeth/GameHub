@@ -1,6 +1,7 @@
 body {
     font-family: 'source sans pro', sans-serif;
 }
+/* Logo and all the navigation links */
  .logo {
      max-width: 100%;
  }
@@ -14,6 +15,7 @@ h1 {
 
 nav li{
 display: inline-block;
+padding: 20px;
 }
 
 nav a {
@@ -35,27 +37,56 @@ nav ul {
 padding: 0px;
 }
 
-body {
-background-image: url("../images/playstationcontroller.jpg");
-}
 .current {
     font-weight: bold;
 }
 
+.topnav{
+  float: right;
+  padding: 6px;
+ margin-top: 8px;
+   
+}
+/*Main content */
 .center-content {
     text-align: center;
 }
+.mainimage{
+    width:100%;
+}
+.form__input {
+    display: block;
+}
+main img {
+border-radius: 8px;
 
+}
+/*Game page*/
+.genre{
+background-color: #E6E6E6;  
+max-width:100%;
+}
+label{
+    padding-right: 200px;
+
+}
+
+/* Contact page */
+.contact-info {
+    border-style: solid;
+    text-align: center;
+    display: inline-block;
+}
+.contact-img{
+    border-radius: 10px;
+    max-width: min-content;
+}
+/* footer*/
 footer {
     background-color:#D2D2D8;
     color: #1B203D;
 }
-
-.mainimage{
-    width:100%;
-}
-
-.form__input {
-    display: block;
+footer .contact-footer{
+  text-align: right;
 }
 
