@@ -58,8 +58,11 @@ padding: 0px;
     display: block;
 }
 main img {
-border-radius: 8px;
+border-radius: 8px
+}
 
+.game-selection{
+text-align: ;
 }
 /*Game page*/
 .genre{
