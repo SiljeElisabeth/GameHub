@@ -114,6 +114,11 @@ label{
     border-radius: 10px;
     max-width: min-content;
 }
+
+/*Account page */
+.profile_pic{
+    border-radius: 50%;
+}
 /* footer*/
 footer {
     background-color:#D2D2D8;
