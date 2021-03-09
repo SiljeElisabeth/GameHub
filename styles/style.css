@@ -1,7 +1,7 @@
 body {
     font-family: 'source sans pro', sans-serif;
 }
-/* Logo and all the navigation links */
+/* Logo and navigation links */
  .logo {
      max-width: 100%;
      float:left;
@@ -16,7 +16,7 @@ h1 {
 
 nav li{
 display: inline-block;
-padding: 30px;
+padding: 30px
 
 }
 
@@ -54,7 +54,8 @@ padding: 0px;
 
 .login{
     background-color:#003877;
-    border-radius: 21%;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10%;
 }
 
 /*Main content */
@@ -62,36 +63,44 @@ padding: 0px;
     text-align: center;
     margin-top:100px;
 }
+
 .form__input {
     display: block;
 }
 img {
-border-radius: 10px
+border-radius: 10px;
 }
-.gearsofwar{
+
+.todays--deals-text{
     border: solid;
     display:inline-block;
-    margin: -10px;
+
 }
-.preorderbutton{
+.cta{
     background-color:#870022;
     color:#E6E6E6;
     display:inline-block;
     padding: 6px;
     width:100px;
     border-radius:27px;
-    float: right;
+
 }
 
 .selection-games{
-    padding-top: 100px;
-    
-    
+    padding-top: 100px;   
+}
+
+.selection-games img{
+    width:250px;
 }
 .game-text{
     border: solid;
     display:inline-block;
     max-width: 300px;
+}
+h2, 
+h3{
+    text-transform: uppercase;
 }
 
 /*Game page*/
@@ -101,6 +110,15 @@ max-width:100%;
 }
 label{
     padding-right: 200px;
+
+}
+.game-list img{
+    width:200px;
+}
+.game-text-gamepage{
+    border: solid;
+    display:grid;
+    grid-template-columns: repeat(3 minmax(0, 1fr));
 
 }
 
