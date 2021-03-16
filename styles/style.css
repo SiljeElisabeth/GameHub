@@ -12,6 +12,7 @@ h1 {
     font-size:40px;
     color: #1B203D;
     font-family: 'Ubuntu',sans-serif;
+    text-transform: uppercase;
 }
 
 nav li{
@@ -74,7 +75,8 @@ border-radius: 10px;
 
 .todays--deals-text{
     border: solid;
-    max-width: 500px;
+    padding: 10px;
+    max-width: 50em;
 }
 .cta{
     background-color:#870022;
@@ -83,11 +85,6 @@ border-radius: 10px;
     padding: 7px 25px;
     border-radius: 10px;
     text-decoration: none;
-
-}
-
-.cta a:hover{
-    border:solid;
 
 }
 
@@ -100,10 +97,12 @@ border-radius: 10px;
 }
 .game-text{
     border: solid;
-    display:inline-block;
-    max-width: 300px;
+    padding: 10px;
+    max-width:30em;
 }
-h2, 
+
+}
+h2 
 h3{
     text-transform: uppercase;
 }
