@@ -99,8 +99,7 @@ border-radius: 10px;
     border: solid;
     padding: 10px;
     max-width:30em;
-}
-
+    text-align: left;
 }
 h2 
 h3{
@@ -145,8 +144,11 @@ label{
 footer {
     background-color:#D2D2D8;
     color: #1B203D;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-footer .contact-footer{
-  text-align: right;
+.contact-footer {
+    text-align: left;
+    
 }
 
