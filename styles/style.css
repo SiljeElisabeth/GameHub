@@ -1,13 +1,13 @@
 body {
     font-family: 'source sans pro', sans-serif;
 }
-/* Logo and navigation links */
+/* Logo*/
  .logo {
      max-width: 100%;
      float:left;
  }
 
-
+/*Top navigation*/
 h1 {
     font-size:40px;
     color: #1B203D;
@@ -47,7 +47,6 @@ padding-top: 85px;
     font-weight: bold;
 }
 
-/*Top navigation*/
 .topnav{
   float: right;
   padding: 6px;
@@ -56,7 +55,8 @@ padding-top: 85px;
 
 .login{
     background-color:#003877;
-    padding: 7px 20px 7px 20px;
+    color:#ffff;
+    padding: 7px 30px;
     border-radius: 10%;
 }
 .search-button{
@@ -66,8 +66,7 @@ padding-top: 85px;
 
 /*Main content */
 .center-content {
-    text-align: center;
-    margin-top:100px;
+    background-image: url('images/playstationcontroller.jpg');
 }
 
 .form__input {
