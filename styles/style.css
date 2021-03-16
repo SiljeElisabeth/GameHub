@@ -39,13 +39,15 @@ nav a:hover {
 
 nav ul {
 padding: 0px;
+text-align: right;
+padding-top: 85px;
 }
 
 .current {
     font-weight: bold;
 }
 
-/*searchbar*/
+/*Top navigation*/
 .topnav{
   float: right;
   padding: 6px;
@@ -56,6 +58,10 @@ padding: 0px;
     background-color:#003877;
     padding: 7px 20px 7px 20px;
     border-radius: 10%;
+}
+.search-button{
+    background-color:#3791A6;
+    color:#ffff;
 }
 
 /*Main content */
