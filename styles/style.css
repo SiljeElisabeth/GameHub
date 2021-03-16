@@ -73,8 +73,7 @@ border-radius: 10px;
 
 .todays--deals-text{
     border: solid;
-    display:inline-block;
-
+    max-width: 500px;
 }
 .cta{
     background-color:#870022;
