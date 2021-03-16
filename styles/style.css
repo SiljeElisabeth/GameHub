@@ -149,6 +149,10 @@ footer {
 }
 .contact-footer {
     text-align: left;
-    
+    grid-column: 3;
+}
+.footer_description {
+    text-align: left;
+    grid-column: 1;
 }
 
