@@ -66,9 +66,7 @@ padding-top: 85px;
 }
 
 /*Main content */
-.form__input {
-    display: block;
-}
+
 img {
 border-radius: 10px;
 }
@@ -89,16 +87,17 @@ border-radius: 10px;
 }
 
 .selection-games{
-    padding-top: 100px;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .selection-games img{
-    width:250px;
+    width:300px;
 }
-.game-text{
+.game-text, .game-text-gamepage{
     border: solid;
     padding: 10px;
-    max-width:30em;
+    max-height: 15em;
     text-align: left;
 }
 h2 
@@ -115,14 +114,12 @@ label{
     padding-right: 200px;
 
 }
-.game-list img{
-    width:200px;
-}
-.game-text-gamepage{
-    border: solid;
+.game-list{
     display:grid;
-    grid-template-columns: repeat(3 minmax(0, 1fr));
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.game-list img{
+    width:15em;
 }
 
 /* Contact page */
@@ -142,10 +139,11 @@ label{
 }
 /* footer*/
 footer {
+    margin: 10px 0px 0px 0px;
     background-color:#D2D2D8;
     color: #1B203D;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 .contact-footer {
     text-align: left;
@@ -156,5 +154,13 @@ footer {
     text-align: left;
     grid-column: 1;
     margin-top: -16px;
+}
+.cta--footer{
+    background-color:#870022;
+    color:#E6E6E6;
+    display:inline-block;
+    padding: 4px 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
