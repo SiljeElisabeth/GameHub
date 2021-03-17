@@ -1,6 +1,7 @@
 body {
     font-family: 'source sans pro', sans-serif;
 }
+
 /* Logo*/
  .logo {
      max-width: 100%;
@@ -8,6 +9,7 @@ body {
  }
 
 /*Top navigation*/
+
 h1 {
     font-size:40px;
     color: #1B203D;
@@ -64,18 +66,17 @@ padding-top: 85px;
     background-color:#3791A6;
     color:#ffff;
 }
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:#000000;
+    font-size: 20px;
+    padding:30px;
+
+}
 
 /*Main content */
 
-img {
-border-radius: 10px;
-}
-
-.todays--deals-text{
-    border: solid;
-    padding: 10px;
-    max-width: 50em;
-}
 .cta{
     background-color:#870022;
     color:#E6E6E6;
@@ -83,27 +84,12 @@ border-radius: 10px;
     padding: 7px 25px;
     border-radius: 20px;
     text-decoration: none;
-
-}
-
-.selection-games{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.selection-games img{
-    width:300px;
-}
-.game-text, .game-text-gamepage{
-    border: solid;
-    padding: 10px;
-    max-height: 15em;
-    text-align: left;
 }
 h2 
 h3{
     text-transform: uppercase;
 }
+
 
 /*Game page*/
 .genre{
