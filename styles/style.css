@@ -28,8 +28,6 @@ nav a {
     text-decoration:none;
     padding: 10px;
     font-family: 'source sans pro', sans-serif;
-    
-
 }
 
 ul {
@@ -68,14 +66,31 @@ padding-top: 85px;
 }
 .icons{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    color:#000000;
+    grid-template-columns: repeat(4, 0.5fr);
+    color:rgb(255, 255, 255);
     font-size: 20px;
-    padding:30px;
+    justify-items: center;
+    padding:30px 0px 30px 0px;
+    background-color: rgb(27, 23, 47);
 
 }
 
 /*Main content */
+
+.deals{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin:auto;
+    padding: 20px;
+    grid-gap:20px;
+}
+
+h1, .featured {
+    grid-column: 1 /-1;
+    text-align: center;
+    padding:20px;
+}
 
 .cta{
     background-color:#870022;
@@ -126,7 +141,6 @@ label{
 
 /* footer*/
 footer {
-    margin: 10px 0px 0px 0px;
     background-color:#D2D2D8;
     color: #1B203D;
     display:grid;
