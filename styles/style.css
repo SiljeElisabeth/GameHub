@@ -29,7 +29,10 @@ nav a {
     padding: 10px;
     font-family: 'source sans pro', sans-serif;
 }
-
+.icons{
+    color:#3791A6;
+    text-decoration: none;
+}
 ul {
     font-family: 'source sans pro', sans-serif;
 }
@@ -76,6 +79,9 @@ padding-top: 85px;
 }
 
 /*Main content */
+h2, h3{
+    text-transform: uppercase;
+}
 
 .deals{
     display:grid;
@@ -100,10 +106,6 @@ h1, .featured {
     border-radius: 20px;
     text-decoration: none;
 }
-h2 
-h3{
-    text-transform: uppercase;
-}
 
 
 /*Game page*/
@@ -117,7 +119,7 @@ label{
 }
 .game-list{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .game-list img{
     width:15em;
