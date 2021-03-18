@@ -107,6 +107,11 @@ h1, .featured {
     text-decoration: none;
 }
 
+.cta:hover{
+    background-color:#ffff;
+    border: solid #870022; 
+    color:#870022
+}
 
 /*Game page*/
 .genre{
@@ -119,10 +124,21 @@ label{
 }
 .game-list{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:50px;
+    max-width:1000px;
+    margin:auto
 }
 .game-list img{
     width:15em;
+}
+
+/*product page*/
+.buy-product {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width:1000px;
+    margin:auto
 }
 
 /* Contact page */
