@@ -69,13 +69,18 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(4, 0.5fr);
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  background-image: url("../images/playstationcontroller.jpg");
+  font-size: 1.5rem;
   justify-items: center;
-  padding: 30px 0px 30px 0px;
-  background-color: rgb(27, 23, 47);
+  padding: 10px 0px 10px 0px;
 }
 
 /*Main content */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
 h2,
 h3 {
   text-transform: uppercase;
@@ -113,6 +118,9 @@ h1,
 }
 
 /*Game page*/
+.center-content {
+  max-width: 1500px;
+}
 .genre {
   background-color: #e6e6e6;
   max-width: 100%;
