@@ -1,203 +1,200 @@
 body {
-    font-family: 'source sans pro', sans-serif;
+  font-family: "source sans pro", sans-serif;
 }
 img {
-    width:100%;
+  width: 100%;
 }
 
 /* Logo*/
- .logo {
-     max-width:210px;
-     float:left;
- }
+.logo {
+  max-width: 210px;
+  float: left;
+}
 
 /*Top navigation*/
 
 h1 {
-    font-size:40px;
-    color: #1B203D;
-    font-family: 'Ubuntu',sans-serif;
-    text-transform: uppercase;
+  font-size: 40px;
+  color: #1b203d;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
 }
 
-nav li{
-display: inline-block;
-padding: 30px
-
+nav li {
+  display: inline-block;
+  padding: 30px;
 }
 
 nav a {
-    color: #3791A6;
-    text-decoration:none;
-    padding: 10px;
-    font-family: 'source sans pro', sans-serif;
+  color: #3791a6;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "source sans pro", sans-serif;
 }
-.icons{
-    color:#3791A6;
-    text-decoration: none;
-    font-family: 'source sans pro', sans-serif;
+.icons {
+  color: #3791a6;
+  text-decoration: none;
+  font-family: "source sans pro", sans-serif;
 }
 ul {
-    font-family: 'source sans pro', sans-serif;
+  font-family: "source sans pro", sans-serif;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 nav ul {
-padding: 0px;
-text-align: right;
-padding-top: 85px;
+  padding: 0px;
+  text-align: right;
+  padding-top: 85px;
 }
 
 .current {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.topnav{
+.topnav {
   float: right;
   padding: 6px;
- margin-top: 8px;
+  margin-top: 8px;
 }
 
-.login{
-    background-color:#003877;
-    color:#ffff;
-    padding: 7px 30px;
-    border-radius: 15px;
+.login {
+  background-color: #003877;
+  color: #ffff;
+  padding: 7px 30px;
+  border-radius: 15px;
 }
-.search-button{
-    background-color:#3791A6;
-    color:#ffff;
+.search-button {
+  background-color: #3791a6;
+  color: #ffff;
 }
-.icons{
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    color:rgb(255, 255, 255);
-    font-size: 20px;
-    justify-items: center;
-    padding:30px 0px 30px 0px;
-    background-color: rgb(27, 23, 47);
-
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  justify-items: center;
+  padding: 30px 0px 30px 0px;
+  background-color: rgb(27, 23, 47);
 }
 
 /*Main content */
-h2, h3{
-    text-transform: uppercase;
+h2,
+h3 {
+  text-transform: uppercase;
 }
 
-.deals{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
-    margin:auto;
-    padding: 20px;
-    grid-gap:20px;
+.deals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  grid-gap: 20px;
 }
 
-h1, .featured {
-    grid-column: 1 /-1;
-    text-align: center;
-    padding:20px;
+h1,
+.featured {
+  grid-column: 1 /-1;
+  text-align: center;
+  padding: 20px;
 }
 
-.cta{
-    background-color:#870022;
-    color:#E6E6E6;
-    display:inline-block;
-    padding: 7px 25px;
-    border-radius: 20px;
-    text-decoration: none;
+.cta {
+  background-color: #870022;
+  color: #e6e6e6;
+  display: inline-block;
+  padding: 7px 25px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
-.cta:hover{
-    background-color:#ffff;
-    border: solid #870022; 
-    color:#870022
+.cta:hover {
+  background-color: #ffff;
+  border: solid #870022;
+  color: #870022;
 }
 
 /*Game page*/
-.genre{
-background-color: #E6E6E6;  
-max-width:100%;
+.genre {
+  background-color: #e6e6e6;
+  max-width: 100%;
 }
-label{
-    padding-right: 200px;
-
+label {
+  padding-right: 200px;
 }
 
-.gamepage{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    max-width:1000px;
-    margin:auto;
-    grid-gap:50px;
+.gamepage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  margin: auto;
+  grid-gap: 50px;
 }
 
 /*product page*/
 .buy-product {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    max-width:1000px;
-    margin:auto
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* Contact page */
 .contact-info {
-    border-style: solid;
-    text-align: center;
-    display: inline-block;
+  border-style: solid;
+  text-align: center;
+  display: inline-block;
 }
-.contact-img{
-    border-radius: 10px;
-    max-width: min-content;
+.contact-img {
+  border-radius: 10px;
+  max-width: min-content;
 }
 
-/*Account page */ 
+/*Account page */
 
-.profile-pic{
-    position:relative;
-    left:720px;
-    max-width:200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+.profile-pic {
+  position: relative;
+  left: 720px;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
-.profile-detail{
-    position:relative;
-    left:500px;
-    border:solid;
-    max-width:700px;
-    padding-left:30px;
-    margin-bottom: 200px;
+.profile-detail {
+  position: relative;
+  left: 500px;
+  border: solid;
+  max-width: 700px;
+  padding-left: 30px;
+  margin-bottom: 200px;
 }
 
 /*sell games page*/
 
-
 /* footer*/
 footer {
-    background-color:#D2D2D8;
-    color: #1B203D;
-    display:grid;
-    grid-template-columns: 2fr 1fr;
+  background-color: #d2d2d8;
+  color: #1b203d;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 .contact-footer {
-    text-align: left;
-    grid-column: 3;
-    margin-top: -60px;
+  text-align: left;
+  grid-column: 3;
+  margin-top: -60px;
 }
 .footer_description {
-    text-align: left;
-    grid-column: 1;
-    margin-top: -16px;
+  text-align: left;
+  grid-column: 1;
+  margin-top: -16px;
 }
-.cta--footer{
-    background-color:#870022;
-    color:#E6E6E6;
-    display:inline-block;
-    padding: 4px 20px;
-    border-radius: 20px;
-    text-decoration: none;
+.cta--footer {
+  background-color: #870022;
+  color: #e6e6e6;
+  display: inline-block;
+  padding: 4px 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
-
