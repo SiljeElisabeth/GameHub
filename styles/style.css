@@ -25,12 +25,7 @@ nav li {
   padding: 30px;
 }
 
-nav a {
-  color: #3791a6;
-  text-decoration: none;
-  padding: 10px;
-  font-family: "source sans pro", sans-serif;
-}
+nav a,
 .icons {
   color: #3791a6;
   text-decoration: none;
