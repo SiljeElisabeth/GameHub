@@ -159,19 +159,12 @@ label {
 /*Account page */
 
 .profile-pic {
-  position: relative;
-  left: 720px;
   max-width: 200px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  border: solid;
 }
 .profile-detail {
-  position: relative;
-  left: 500px;
-  border: solid;
-  max-width: 700px;
-  padding-left: 30px;
-  margin-bottom: 200px;
+  padding-left: 40px;
 }
 
 /*sell games page*/
