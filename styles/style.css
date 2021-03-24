@@ -91,7 +91,8 @@ main {
 
 .main-product {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   padding: 20px;
   gap: 20px;
 }
@@ -130,10 +131,9 @@ label {
 
 .gamepage {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1000px;
-  margin: auto;
-  grid-gap: 50px;
+  margin: 0 auto;
 }
 
 /*product page*/
