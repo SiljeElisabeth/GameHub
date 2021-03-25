@@ -6,7 +6,6 @@ img {
 }
 
 h1 {
-  text-align: center;
   font-size: 2.5em;
   color: #1b203d;
   font-family: "Ubuntu", sans-serif;
@@ -91,8 +90,7 @@ main {
 
 .main-product {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   padding: 20px;
   gap: 20px;
 }
@@ -134,8 +132,12 @@ label {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1000px;
   margin: 0 auto;
+  gap: 30px;
+  padding: 20px;
 }
-
+.gamepage img {
+  width: 100%;
+}
 /*product page*/
 .buy-product {
   display: grid;
