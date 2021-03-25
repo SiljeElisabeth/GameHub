@@ -11,13 +11,14 @@ h1 {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
 }
-
 .welcome-text {
-  font-size: 1.2rem;
-  padding-left: 60px;
-  text-align: left;
+  text-align: center;
 }
-
+h2 h3 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #1b203d;
+}
 /* Logo*/
 .logo {
   max-width: 13em;
@@ -84,6 +85,8 @@ main {
   padding: 10px;
 }
 .game-price {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
   float: right;
   text-align: right;
 }
@@ -100,19 +103,39 @@ h1,
   grid-column: 1 /-1;
   padding: 20px;
 }
+.cta-featured {
+  background-color: #870022;
+  color: #e6e6e6;
+  padding: 5px 0px 5px 38px;
+  margin-left: 110px;
+  border-radius: 20px;
+  text-decoration: none;
+  grid-column: -2/-1;
+}
+.cta-featured:hover {
+  background-color: #ffff;
+  border: solid #870022;
+  color: #870022;
+  padding: 3px 0px 3px 36px;
+}
+.product--detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .cta {
   background-color: #870022;
   color: #e6e6e6;
-  display: inline-block;
-  padding: 7px 25px;
+  padding: 5px 0px 5px 16px;
   border-radius: 20px;
   text-decoration: none;
+  grid-column: -2/-1;
 }
 
 .cta:hover {
   background-color: #ffff;
   border: solid #870022;
   color: #870022;
+  padding: 3px 0px 3px 14px;
 }
 
 /*Game page*/
@@ -132,7 +155,7 @@ label {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1000px;
   margin: 0 auto;
-  gap: 30px;
+  gap: 50px;
   padding: 20px;
 }
 .gamepage img {
@@ -194,4 +217,10 @@ footer {
   padding: 4px 20px;
   border-radius: 20px;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .welcome-text {
+    min-width: 300px;
+  }
 }
