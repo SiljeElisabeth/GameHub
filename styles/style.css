@@ -33,12 +33,14 @@ nav li {
 }
 
 nav a,
-.icons {
+.icons,
+.account-links {
   color: #3791a6;
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover,
+.account-links:hover {
   text-decoration: underline;
 }
 
@@ -181,16 +183,34 @@ label {
 }
 
 /*Account page */
-
 .profile-pic {
-  max-width: 200px;
+  position: relative;
+  left: 200px;
+  bottom: 20px;
+  max-width: 13rem;
   border-radius: 50%;
   border: solid;
 }
 .profile-detail {
-  padding-left: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
+.account-links {
+  grid-column: 2/3;
+}
+.account-styling-img {
+  background-image: url(../images/account-img.jpg);
+  background-size: cover;
+  height: 20px;
+  width: 2000px;
+  margin-left: -800px;
+}
+
+.edit-button {
+  position: relative;
+  bottom: 30px;
+}
 /*sell games page*/
 
 /* footer*/
