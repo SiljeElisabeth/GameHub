@@ -28,49 +28,72 @@
       <img src="images/GameHub_Logo.jpg" alt="The Game hub logo" class="logo" />
       <nav>
         <ul>
-          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="games.html">Games</a></li>
-          <li><a href="sellgames.html">Sell games</a></li>
+          <li><a href="sellgames.html" class="current">Sell games</a></li>
           <li><a href="account.html" class="login">My account</a></li>
         </ul>
       </nav>
     </header>
+    <h1>SELL GAMES</h1>
     <main>
-      <img src="images/profilepic.jpg" class="profile-pic" />
-      <div class="profile-detail">
-        <h3>sell games</h3>
-        <label for="platform">Select platform:</label> <br />
-        <select name="platform" id="platform">
-          <option value="playstation">playstation</option>
-          <option value="xbox">Xbox 360</option>
-          <option value="xbox-x">Xbox series X</option>
-          <option value="pc">PC</option>
-          <option value="nintendo">Nintendo</option>
-          <option value="switch">Nintendo Switch</option>
-        </select>
-        <br />
-        <label for="genre">Select genre</label> <br />
-        <select name="genre" id="genre">
-          <option value="fps">Genre</option>
-          <option value="fps">First person shooter</option>
-          <option value="adventure">Adventure</option>
-          <option value="action">Action</option>
-          <option value="puzzle">Puzzle</option>
-        </select>
-        <br />
-        <form>
-          <label for="ibsn">Add ISBN/barcode</label><br />
-          <input
-            type="text"
-            name="ibsn"
-            id="ibsn"
-            class="form__input"
-            required
-          />
-        </form>
-        <a href="" class="cta">Next</a>
-      </div>
+      <section class="profile">
+        <img src="images/profilepic.jpg" class="profile-pic" />
+        <div class="username-email">
+          <p>Username: Liv4thawin</p>
+          <p>Email: Liv@gmail.com</p>
+        </div>
+        <div class="account-styling-img"></div>
+        <h3>Enter information about your game:</h3>
+      </section>
+      <section class="sellgames">
+        <div>
+          <label for="platform">Select platform:</label> <br />
+          <select name="platform" id="platform">
+            <option value="playstation">playstation</option>
+            <option value="xbox">Xbox 360</option>
+            <option value="xbox-x">Xbox series X</option>
+            <option value="pc">PC</option>
+            <option value="nintendo">Nintendo</option>
+            <option value="switch">Nintendo Switch</option>
+          </select>
+          <br />
+          <label for="genre">Select genre</label> <br />
+          <select name="genre" id="genre">
+            <option value="fps">Genre</option>
+            <option value="fps">First person shooter</option>
+            <option value="adventure">Adventure</option>
+            <option value="action">Action</option>
+            <option value="puzzle">Puzzle</option>
+          </select>
+          <br />
+          <form>
+            <label for="ibsn">Add ISBN/barcode</label><br />
+            <input
+              type="text"
+              name="ibsn"
+              id="ibsn"
+              class="form__input"
+              required
+            />
+          </form>
+        </div>
+        <div class="addimagegrid">
+          <p class="addimagebox">Drop image or click to upload</p>
+          <form>
+            <label for="title">Add title</label><br />
+            <input
+              type="text"
+              name="title"
+              id="title"
+              class="form__input"
+              required
+            />
+          </form>
+          <a href="">Next</a>
+        </div>
+      </section>
     </main>
     <footer>
       <h3>About us</h3>

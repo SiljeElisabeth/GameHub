@@ -202,17 +202,48 @@ label {
 .account-styling-img {
   background-image: url(../images/account-img.jpg);
   background-size: cover;
+  position: relative;
   height: 20px;
-  width: 2000px;
-  margin-left: -800px;
 }
 
 .edit-button {
   position: relative;
   bottom: 30px;
 }
+.username-email {
+  text-align: center;
+}
 /*sell games page*/
+.sellgames {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.addimagebox {
+  text-align: center;
+  border: dashed #3791a6;
+  color: #2a7080;
+  background-color: #56b4c92f;
+  width: 10em;
+  height: 12em;
+}
 
+.addimagegrid {
+  grid-column: 2;
+}
+
+/* search results*/
+.searchresults {
+  max-width: 1500px;
+}
+
+.searchresult-games {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: solid;
+}
+.searchresult-games img {
+  max-width: 150px;
+}
 /* footer*/
 footer {
   background-color: #d2d2d8;
