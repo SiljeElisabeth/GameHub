@@ -168,10 +168,34 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
+}
+.buy-product-detail {
+  float: right;
 }
 
-/* Contact page */
+.product-text-details {
+  position: relative;
+  top: -40px;
+  padding: 20px;
+}
+.cta-addtochart {
+  background-color: #870022;
+  color: #e6e6e6;
+  padding: 5px 10px 5px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.cta-addtochart:hover {
+  background-color: #ffff;
+  border: solid #870022;
+  color: #870022;
+  padding: 3px 8px 3px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+/* contact page */
 .contact-info {
   border-style: solid;
   text-align: center;
@@ -270,8 +294,22 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
-  .welcome-text {
-    min-width: 300px;
-  }
+@media (max-width: 768px) {
+  .gamepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 20px;
+}
+
+@media (max-width: 640px) {
+  .gamepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 20px;
 }
