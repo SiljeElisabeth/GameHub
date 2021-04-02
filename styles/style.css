@@ -298,18 +298,48 @@ footer {
   .gamepage {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1000px;
     margin: 0 auto;
     gap: 50px;
     padding: 20px;
+  }
+  label {
+    padding: 20px;
+  }
+  .product--detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 640px) {
   .gamepage {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
+    grid-template-columns: 1fr;
     margin: 0 auto;
-    gap: 50px;
+    gap: 20px;
     padding: 20px;
+  }
+  .main-product {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+  .product--detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cta,
+  .cta-featured {
+    background-color: #870022;
+    color: #e6e6e6;
+    padding: 5px 0px 5px 16px;
+    border-radius: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+    grid-column: -2/-1;
+  }
+  label {
+    padding: 10px;
+  }
 }
