@@ -1,3 +1,5 @@
+@import "../styles/imports/variables.css";
+
 body {
   font-family: "source sans pro", sans-serif;
 }
@@ -79,7 +81,18 @@ nav ul {
   justify-items: center;
   padding: 10px 0px 10px 0px;
 }
-
+.cta {
+  background-color: var(--background-color);
+  color: var(--color);
+  text-decoration: var(--text-decoration);
+  border-radius: var(--border-radius);
+}
+.cta:hover {
+  background-color: var(--background-color-hover);
+  color: var(--color-hover);
+  text-decoration: var(--text-decoration);
+  border: var(--border-hover);
+}
 /*Main content */
 main {
   max-width: 600px;
@@ -90,7 +103,7 @@ main {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.7em;
   float: right;
-  text-align: right;
+  text-align: center;
 }
 
 .main-product {
@@ -105,39 +118,26 @@ h1,
   grid-column: 1 /-1;
   padding: 20px;
 }
+
 .cta-featured {
-  background-color: #870022;
-  color: #e6e6e6;
-  padding: 5px 0px 5px 38px;
-  margin-left: 110px;
-  border-radius: 20px;
-  text-decoration: none;
+  padding: 5px 0px 5px 46px;
+  margin: 0px 48px 0px 48px;
   grid-column: -2/-1;
 }
 .cta-featured:hover {
-  background-color: #ffff;
-  border: solid #870022;
-  color: #870022;
-  padding: 3px 0px 3px 36px;
+  padding: 2px 0px 2px 44px;
 }
 .product--detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.cta {
-  background-color: #870022;
-  color: #e6e6e6;
-  padding: 5px 0px 5px 16px;
-  border-radius: 20px;
-  text-decoration: none;
-  grid-column: -2/-1;
+.cta-home {
+  padding: 5px 17px 5px 16px;
+  margin-left: 27px;
 }
 
-.cta:hover {
-  background-color: #ffff;
-  border: solid #870022;
-  color: #870022;
-  padding: 3px 0px 3px 14px;
+.cta-home:hover {
+  padding: 3px 14px 3px 13px;
 }
 
 /*Game page*/
@@ -163,6 +163,14 @@ label {
 .gamepage img {
   width: 100%;
 }
+
+.cta-games {
+  padding: 5px 10px 5px 10px;
+}
+.cta-games:hover {
+  padding: 3px 7px 3px 7px;
+}
+
 /*product page*/
 .buy-product {
   display: grid;
@@ -178,20 +186,13 @@ label {
   padding-left: 20px;
 }
 .cta-addtochart {
-  background-color: #870022;
-  color: #e6e6e6;
-  padding: 5px 10px 5px 15px;
-  border-radius: 20px;
-  text-decoration: none;
+  position: relative;
+  right: 30px;
+  padding: 5px 20px 5px 20px;
 }
 
 .cta-addtochart:hover {
-  background-color: #ffff;
-  border: solid #870022;
-  color: #870022;
-  padding: 3px 8px 3px 14px;
-  border-radius: 20px;
-  text-decoration: none;
+  padding: 3px 17px 3px 17px;
 }
 /* contact page */
 .contactpage {
@@ -265,11 +266,17 @@ label {
 
 .searchresult-games {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  border: solid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  border: solid 1px;
+  margin: 10px;
 }
 .searchresult-games img {
-  max-width: 150px;
+  max-width: 200px;
+}
+.cta-search-results {
+  position: relative;
+  top: 30px;
+  left: 10px;
 }
 /* footer*/
 footer {
@@ -317,7 +324,7 @@ footer {
   }
 }
 
-@media (max-width: 3px) {
+@media (max-width: 375px) {
   .gamepage {
     display: grid;
     grid-template-columns: 1fr;
@@ -335,14 +342,9 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .cta,
   .cta-featured {
-    background-color: #870022;
-    color: #e6e6e6;
-    padding: 5px 0px 5px 16px;
-    border-radius: 20px;
-    margin-left: 50px;
-    text-decoration: none;
+    padding: 5px 0px 5px 20px;
+    margin-left: 10px;
     grid-column: -2/-1;
   }
   label {

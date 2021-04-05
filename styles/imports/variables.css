@@ -1,0 +1,9 @@
+:root {
+  --background-color: #870022;
+  --color: #e6e6e6;
+  --border-radius: 20px;
+  --text-decoration: none;
+  --background-color-hover: #ffff;
+  --border-hover: solid #870022;
+  --color-hover: #870022;
+}
