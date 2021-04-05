@@ -6,4 +6,8 @@
   --background-color-hover: #ffff;
   --border-hover: solid #870022;
   --color-hover: #870022;
+  --font-family-text: "source sans pro", sans-serif;
+  --font-family-heading: "Ubuntu", sans-serif;
+  --big-text: #1b203d;
+  --links-color: #3791a6;
 }

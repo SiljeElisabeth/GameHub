@@ -1,25 +1,25 @@
 @import "../styles/imports/variables.css";
 
 body {
-  font-family: "source sans pro", sans-serif;
+  font-family: var(--font-family-text);
 }
 img {
   width: 100%;
 }
-
-h1 {
+.welcome-text h1 {
   font-size: 2.5em;
-  color: #1b203d;
-  font-family: "Ubuntu", sans-serif;
-  text-transform: uppercase;
-}
-.welcome-text {
   text-align: center;
 }
-h2 h3 {
-  font-family: "Ubuntu", sans-serif;
+.welcome-text p {
+  text-align: center;
+  color: var(--big-text);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-heading);
   text-transform: uppercase;
-  color: #1b203d;
+  color: var(--big-text);
 }
 /* Logo*/
 .logo {
@@ -37,7 +37,7 @@ nav li {
 nav a,
 .icons,
 .account-links {
-  color: #3791a6;
+  color: var(--links-color);
   text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ nav ul {
   border-radius: 15px;
 }
 .search-button {
-  background-color: #3791a6;
+  background-color: var(--links-color);
   color: #ffff;
 }
 .icons {
@@ -100,7 +100,7 @@ main {
   padding: 10px;
 }
 .game-price {
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--font-family-text);
   font-size: 1.7em;
   float: right;
   text-align: center;
@@ -148,7 +148,7 @@ h1,
   background-color: #e6e6e6;
   max-width: 100%;
 }
-label {
+.genre label {
   padding-right: 200px;
 }
 
@@ -210,6 +210,13 @@ label {
   height: 450px;
   width: 700px;
 }
+
+/*Create Account page */
+
+.register-email {
+  font-family: var(--font-family-text);
+}
+
 /*Account page */
 .profile-pic {
   position: relative;
@@ -248,7 +255,7 @@ label {
 }
 .addimagebox {
   text-align: center;
-  border: dashed #3791a6;
+  border: dashed var(--links-color);
   color: #2a7080;
   background-color: #56b4c92f;
   width: 10em;
@@ -281,7 +288,7 @@ label {
 /* footer*/
 footer {
   background-color: #d2d2d8;
-  color: #1b203d;
+  color: var(--big-text);
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
