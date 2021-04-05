@@ -88,7 +88,7 @@ main {
 }
 .game-price {
   font-family: "Ubuntu", sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
   float: right;
   text-align: right;
 }
@@ -174,10 +174,8 @@ label {
   float: right;
 }
 
-.product-text-details {
-  position: relative;
-  top: -40px;
-  padding: 20px;
+.product-text-detail {
+  padding-left: 20px;
 }
 .cta-addtochart {
   background-color: #870022;
@@ -196,16 +194,21 @@ label {
   text-decoration: none;
 }
 /* contact page */
+.contactpage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.contact {
+  display: flex;
+}
 .contact-info {
   border-style: solid;
   text-align: center;
-  display: inline-block;
+  padding: 20px;
+  height: 450px;
+  width: 700px;
 }
-.contact-img {
-  border-radius: 10px;
-  max-width: min-content;
-}
-
 /*Account page */
 .profile-pic {
   position: relative;
@@ -309,9 +312,12 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .game-price {
+    font-size: 1.5em;
+  }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 3px) {
   .gamepage {
     display: grid;
     grid-template-columns: 1fr;
@@ -335,7 +341,7 @@ footer {
     color: #e6e6e6;
     padding: 5px 0px 5px 16px;
     border-radius: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
     text-decoration: none;
     grid-column: -2/-1;
   }
