@@ -357,4 +357,13 @@ footer {
   label {
     padding: 10px;
   }
+  .searchresult-games {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: solid 1px;
+    margin: 10px;
+  }
+  .cta-search-results {
+    margin-left: 0px;
+  }
 }
