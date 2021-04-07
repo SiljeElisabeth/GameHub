@@ -116,7 +116,7 @@ main {
 h1,
 .featured {
   grid-column: 1 /-1;
-  padding: 20px;
+  padding: 10px;
 }
 
 .cta-featured {
@@ -138,6 +138,15 @@ h1,
 
 .cta-home:hover {
   padding: 3px 14px 3px 13px;
+}
+
+.cta-more {
+  position: relative;
+  left: 240px;
+  padding: 7px 30px 7px 30px;
+}
+.cta-more:hover {
+  padding: 5px 27px 5px 27px;
 }
 
 /*Game page*/
@@ -178,12 +187,22 @@ h1,
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.buy-product img {
+  margin-top: 39px;
+}
 .buy-product-detail {
   float: right;
 }
 
-.product-text-detail {
-  padding-left: 20px;
+.product-info {
+  padding-left: 10px;
+}
+.seller-info {
+  padding-left: 10px;
+  border: solid 1px;
+  background-color: #d8d8d8;
+  margin-left: 10px;
 }
 .cta-addtochart {
   position: relative;
