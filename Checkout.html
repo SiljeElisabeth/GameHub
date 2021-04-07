@@ -10,6 +10,10 @@
       rel="stylesheet"
     />
     <link href="styles/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/74588108d0.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -21,18 +25,95 @@
         </form>
       </div>
 
-      <img src="images/GameHub_Logo.jpg" alt="The Game hub logo" class="logo" />
+      <a href="index.html">
+        <img src="images/GameHub_Logo.jpg" alt="The Game hub logo" class="logo"
+      /></a>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="Games.html">Games</a></li>
-          <li><a href="Sellgames.html">Sell games</a></li>
-          <li><a href="Account.html" class="login">My account</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sellgames.html">Sell games</a></li>
+          <li>
+            <a href="createaccount.html" class="login">Log in/Register</a>
+          </li>
         </ul>
       </nav>
+      <section class="icons">
+        <a href="index.html" class="icons"> <i class="fas fa-home"></i></a>
+        <a href="account.html" class="icons"> <i class="fas fa-user"></i></a>
+        <a href="checkout.html" class="icons">
+        <i class="fas fa-shopping-cart"></i></a
+        ></i>
+        <a href="games.html" class="icons">
+        <i class="fas fa-gamepad"></i></a>
+      </section>
     </header>
-    <main></main>
+    <h1>Cart summary</h1>
+    <main>
+      <section class="cart">
+        <div>
+          <img src="images/sean-stone-dkb3wApu5XQ-unsplash.jpg" />
+        </div>
+        <section>
+          <div class="cartsummary">
+            <div>
+              <p>Product name</p>
+              <p>Assassin</p>
+              <p>Shipping</p>
+              <br />
+              <p>TOTAL</p>
+            </div>
+            <div>
+              <p>QTY</p>
+              <p class="qty">1</p>
+            </div>
+            <div class="subtotal">
+              <p>Subtotal</p>
+              <p>699 kr</p>
+              <p>FREE</p>
+              <br />
+              <p>699 kr</p>
+            </div>
+          </div>
+          <div class="paymentinfo">
+            <h3>Payment information</h3>
+            <br />
+            <section>
+              <form>
+                <label for="namecreditcard">Name on creditcard</label><br />
+                <input
+                  type="text"
+                  id="namecreditcard"
+                  name="namecreditcard"
+                /><br />
+                <label for="cardnumber">Credit card number</label><br />
+                <input type="text" id="cardnumber" name="cardnumber" />
+              </form>
+              <label for="month">Expires on</label>
+              <select name="month" id="month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+              </select>
+              <label for="year">/</label>
+              <select name="year" id="year">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+              </select>
+              <form>
+                <label for="ccv">CCV</label><br />
+                <input type="text" id="ccv" name="ccv" />
+              </form>
+            </section>
+            <a href="checkoutsuccess.html" class="cta cta-checkout"
+              >Check out</a
+            >
+          </div>
+        </section>
+      </section>
+    </main>
 
     <footer>
       <h3>About us</h3>

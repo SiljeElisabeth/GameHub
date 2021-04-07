@@ -285,6 +285,64 @@ h1,
   top: 30px;
   left: 10px;
 }
+/* cart summary/checkout sucess*/
+.cart {
+  display: flex;
+  max-width: 1500px;
+  border: solid 1px;
+}
+.cart img {
+  width: 350px;
+}
+.cartsummary {
+  display: grid;
+  grid-template-columns: 2fr 0.1fr 1fr;
+  padding-left: 10px;
+}
+.qty {
+  border: solid 1px;
+  text-align: center;
+}
+
+.subtotal {
+  text-align: center;
+}
+.paymentinfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10px;
+}
+.cta-checkout {
+  margin: 12px -0px 0px 120px;
+  padding: 5px 22px 5px 28px;
+  grid-column: -3/-1;
+}
+
+.cta-checkout:hover {
+  padding: 2px 19px 2px 26px;
+}
+
+.order-placed {
+  text-align: center;
+}
+.order-confirmation {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  border: solid 1px;
+  background-color: #f1f1f1;
+  padding: 2px 0px 2px 10px;
+  margin-bottom: 30px;
+}
+
+.circle-icon {
+  color: #26a543;
+  font-size: 8em;
+}
+.cta-blue {
+  position: relative;
+  left: 420px;
+  bottom: 10px;
+}
 /* footer*/
 footer {
   background-color: #d2d2d8;
@@ -365,5 +423,8 @@ footer {
   }
   .cta-search-results {
     margin-left: 0px;
+  }
+  .cta-games {
+    padding: 5px 37px 5px 40px;
   }
 }
