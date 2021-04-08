@@ -38,7 +38,7 @@ nav a,
 .icons,
 .account-links {
   color: var(--links-color);
-  text-decoration: none;
+  text-decoration: var(--text-decoration);
 }
 
 nav a:hover,
@@ -99,11 +99,16 @@ main {
   margin: 0 auto;
   padding: 10px;
 }
-.game-price {
+.game-price-home {
   font-family: var(--font-family-text);
   font-size: 1.7em;
-  float: right;
   text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+.seller-home {
+  position: relative;
+  bottom: 60px;
 }
 
 .main-product {
@@ -127,13 +132,15 @@ h1,
 .cta-featured:hover {
   padding: 2px 0px 2px 44px;
 }
-.product--detail {
+.product-detail-home {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .cta-home {
-  padding: 5px 17px 5px 16px;
-  margin-left: 27px;
+  position: relative;
+  bottom: 20px;
+  left: 15px;
+  padding: 5px 20px 5px 20px;
 }
 
 .cta-home:hover {
@@ -150,6 +157,10 @@ h1,
 }
 
 /*Game page*/
+.product-detail h2,
+p {
+  margin: 0;
+}
 .center-content {
   max-width: 1500px;
 }
@@ -166,18 +177,23 @@ h1,
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1000px;
   margin: 0 auto;
-  gap: 50px;
+  gap: 20px;
   padding: 20px;
 }
 .gamepage img {
   width: 100%;
 }
 
+.game-price {
+  text-align: right;
+  font-size: 1.5em;
+  margin: 5px 0px 9px 0px;
+}
 .cta-games {
-  padding: 5px 10px 5px 10px;
+  padding: 2px 80px 2px 80px;
 }
 .cta-games:hover {
-  padding: 3px 7px 3px 7px;
+  padding: 0px 77px 0px 77px;
 }
 
 /*product page*/
@@ -197,9 +213,10 @@ h1,
 
 .product-info {
   padding-left: 10px;
+  margin-top: 20px;
 }
 .seller-info {
-  padding-left: 10px;
+  padding: 5px 0px 5px 10px;
   border: solid 1px;
   background-color: #d8d8d8;
   margin-left: 10px;
@@ -396,15 +413,14 @@ footer {
     gap: 50px;
     padding: 20px;
   }
-  label {
+  .genre label {
     padding: 20px;
-  }
-  .product--detail {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
   .game-price {
     font-size: 1.5em;
+  }
+  .cta-games {
+    padding: 2px 60px 2px 60px;
   }
 }
 
@@ -416,23 +432,24 @@ footer {
     gap: 20px;
     padding: 20px;
   }
+
+  .genre label {
+    padding-right: 0px;
+  }
   .main-product {
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px;
     gap: 20px;
   }
-  .product--detail {
+  .product-detail {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .cta-featured {
     padding: 5px 0px 5px 20px;
     margin-left: 10px;
     grid-column: -2/-1;
-  }
-  label {
-    padding: 10px;
   }
   .searchresult-games {
     display: grid;
@@ -444,6 +461,6 @@ footer {
     margin-left: 0px;
   }
   .cta-games {
-    padding: 5px 37px 5px 40px;
+    padding: 2px 110px 2px 110px;
   }
 }
