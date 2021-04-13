@@ -88,12 +88,13 @@ nav ul {
   color: var(--color);
   text-decoration: var(--text-decoration);
   border-radius: var(--border-radius);
+  border: var(--border);
 }
 .cta:hover {
   background-color: var(--background-color-hover);
   color: var(--color-hover);
   text-decoration: var(--text-decoration);
-  border: var(--border-hover);
+  border: var(--border);
 }
 /*Main content */
 main {
@@ -129,12 +130,8 @@ h1,
 .cta-featured {
   display: flex;
   justify-content: center;
-  padding: 5px 0px 5px 0px;
   margin: 0px 48px 0px 48px;
   grid-column: -2/-1;
-}
-.cta-featured:hover {
-  padding: 2px 0px 2px 0px;
 }
 .product-detail-home {
   display: grid;
@@ -143,20 +140,11 @@ h1,
 .cta-home {
   display: flex;
   justify-content: center;
-  padding: 5px 0px 5px 0px;
-}
-
-.cta-home:hover {
-  padding: 3px 14px 3px 13px;
 }
 
 .cta-more {
   display: flex;
   justify-content: center;
-  padding: 7px 0px 7px 0px;
-}
-.cta-more:hover {
-  padding: 5px 0px 5px 0px;
 }
 
 /*Game page*/
@@ -195,10 +183,6 @@ p {
 .cta-games {
   display: flex;
   justify-content: center;
-  padding: 2px 80px 2px 80px;
-}
-.cta-games:hover {
-  padding: 0px 77px 0px 77px;
 }
 
 /*product page*/
@@ -229,16 +213,11 @@ p {
 .cta-addtochart {
   position: relative;
   right: 30px;
-  padding: 5px 20px 5px 20px;
-}
-
-.cta-addtochart:hover {
-  padding: 3px 17px 3px 17px;
+  padding: 0px 10px 0px 10px;
 }
 /* contact page */
 .contactpage {
   max-width: 800px;
-  margin: 0 auto;
   padding: 10px;
 }
 .contact {
@@ -250,6 +229,9 @@ p {
   padding: 20px;
   height: 450px;
   width: 700px;
+}
+.contact img {
+  max-width: 450px;
 }
 
 /*Create Account page */
@@ -324,7 +306,6 @@ p {
 .cta-search-results {
   position: relative;
   top: 30px;
-  left: 10px;
 }
 /* cart summary/checkout sucess*/
 .cart {
@@ -356,14 +337,8 @@ p {
 .cta-checkout {
   display: flex;
   justify-content: center;
-  margin: 12px -0px 0px 120px;
-  padding: 5px 25px 5px 25px;
+  margin: 12px 10px 0px 120px;
   grid-column: -3/-1;
-}
-
-.cta-checkout:hover {
-  border: solid 3px;
-  padding: 2px 22px 2px 22px;
 }
 
 .order-placed {
@@ -403,6 +378,7 @@ footer {
   text-align: left;
   grid-column: 1;
   margin-top: -16px;
+  padding: 20px 0px 20px 0px;
 }
 .cta--footer {
   background-color: #870022;

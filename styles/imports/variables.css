@@ -1,10 +1,10 @@
 :root {
   --background-color: #870022;
   --color: #e6e6e6;
+  --border: 3px solid #870022;
   --border-radius: 20px;
   --text-decoration: none;
   --background-color-hover: #ffff;
-  --border-hover: solid #870022;
   --color-hover: #870022;
   --font-family-text: "source sans pro", sans-serif;
   --font-family-heading: "Ubuntu", sans-serif;
