@@ -5,9 +5,12 @@
   --border-radius: 20px;
   --text-decoration: none;
   --background-color-hover: #ffff;
-  --color-hover: #870022;
   --font-family-text: "source sans pro", sans-serif;
   --font-family-heading: "Ubuntu", sans-serif;
   --big-text: #1b203d;
   --links-color: #2e7c8f;
+}
+
+:focus {
+  outline: 2px solid black;
 }

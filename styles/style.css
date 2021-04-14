@@ -81,7 +81,10 @@ nav ul {
   padding: 10px 0px 10px 0px;
 }
 .icons-link {
-  color: #fff;
+  color: #ffff;
+}
+.icons-link:hover {
+  color: #4dacc4;
 }
 .cta {
   background-color: var(--background-color);
