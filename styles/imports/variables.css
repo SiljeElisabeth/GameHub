@@ -1,12 +1,11 @@
 :root {
-  --background-color: #870022;
-  --color: #e6e6e6;
-  --border: 3px solid #870022;
-  --border-radius: 20px;
-  --text-decoration: none;
-  --background-color-hover: #ffff;
-  --font-family-text: "source sans pro", sans-serif;
-  --font-family-heading: "Ubuntu", sans-serif;
+  --cta-bg: #870022;
+  --cta-textcolor: #e6e6e6;
+  --cta-border: 3px solid #870022;
+  --cta-br: 20px;
+  --cta-bg-hover: #ffff;
+  --font-text: "source sans pro", sans-serif;
+  --font-heading: "Ubuntu", sans-serif;
   --big-text: #1b203d;
   --links-color: #2e7c8f;
 }

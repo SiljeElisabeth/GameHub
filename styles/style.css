@@ -1,7 +1,7 @@
 @import "../styles/imports/variables.css";
 
 body {
-  font-family: var(--font-family-text);
+  font-family: var(--font-text);
 }
 img {
   width: 100%;
@@ -17,7 +17,7 @@ img {
 h1,
 h2,
 h3 {
-  font-family: var(--font-family-heading);
+  font-family: var(--font-heading);
   text-transform: uppercase;
   color: var(--big-text);
 }
@@ -65,8 +65,16 @@ nav ul {
 .login {
   background-color: #003877;
   color: #ffff;
-  padding: 7px 30px;
+  border: 3px solid #003877;
+  padding: 3px 30px 3px 30px;
   border-radius: 15px;
+  text-decoration: var(--text-decoration);
+}
+.login:hover {
+  background-color: #ffff;
+  border: 3px solid #003877;
+  color: #003877;
+  text-decoration: var(--text-decoration);
 }
 .search-button {
   background-color: var(--links-color);
@@ -87,17 +95,19 @@ nav ul {
   color: #4dacc4;
 }
 .cta {
-  background-color: var(--background-color);
-  color: var(--color);
-  text-decoration: var(--text-decoration);
-  border-radius: var(--border-radius);
-  border: var(--border);
+  background-color: var(--cta-bg);
+  color: var(--cta-textcolor);
+  text-decoration: none;
+  border-radius: var(--cta-br);
+  border: var(--cta-border);
+  display: flex;
+  justify-content: center;
 }
 .cta:hover {
-  background-color: var(--background-color-hover);
+  background-color: var(--cta-bg-hover);
   color: var(--color-hover);
-  text-decoration: var(--text-decoration);
-  border: var(--border);
+  text-decoration: none;
+  border: var(--cta-border);
 }
 /*Main content */
 main {
@@ -106,7 +116,7 @@ main {
   padding: 10px;
 }
 .game-price-home {
-  font-family: var(--font-family-text);
+  font-family: var(--font-text);
   font-size: 1.7em;
   text-align: center;
   position: relative;
@@ -131,23 +141,12 @@ h1,
 }
 
 .cta-featured {
-  display: flex;
-  justify-content: center;
   margin: 0px 48px 0px 48px;
   grid-column: -2/-1;
 }
 .product-detail-home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-.cta-home {
-  display: flex;
-  justify-content: center;
-}
-
-.cta-more {
-  display: flex;
-  justify-content: center;
 }
 
 /*Game page*/
@@ -183,10 +182,6 @@ p {
   font-size: 1.5em;
   margin: 5px 0px 9px 0px;
 }
-.cta-games {
-  display: flex;
-  justify-content: center;
-}
 
 /*product page*/
 .buy-product {
@@ -213,9 +208,7 @@ p {
   background-color: #d8d8d8;
   margin-left: 10px;
 }
-.cta-addtochart {
-  position: relative;
-  right: 30px;
+.cta-addtocart {
   padding: 0px 10px 0px 10px;
 }
 /* contact page */
@@ -240,7 +233,7 @@ p {
 /*Create Account page */
 
 .register-email {
-  font-family: var(--font-family-text);
+  font-family: var(--font-text);
 }
 
 /*Account page */
@@ -335,9 +328,7 @@ p {
   padding-left: 10px;
 }
 .cta-checkout {
-  display: flex;
-  justify-content: center;
-  margin: 12px 10px 0px 120px;
+  margin: 20px 10px 0px 5px;
   grid-column: -3/-1;
 }
 
@@ -357,9 +348,9 @@ p {
   color: #26a543;
   font-size: 8em;
 }
-.cta-blue {
+.cta-continiue {
   position: relative;
-  left: 420px;
+  left: 408px;
   bottom: 10px;
 }
 /* footer*/
@@ -444,5 +435,8 @@ footer {
   }
   .cta-search-results {
     margin-left: 0px;
+  }
+  .cart img {
+    width: 100px;
   }
 }
