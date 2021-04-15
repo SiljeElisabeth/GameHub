@@ -433,7 +433,8 @@ footer {
     margin: 10px;
   }
   .cta-search-results {
-    margin-left: 0px;
+    position: relative;
+    top: -20px;
   }
   .cart img {
     display: none;
