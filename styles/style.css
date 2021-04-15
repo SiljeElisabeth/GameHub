@@ -349,9 +349,8 @@ p {
   font-size: 8em;
 }
 .cta-continiue {
-  position: relative;
-  left: 408px;
-  bottom: 10px;
+  position: flex;
+  justify-content: right;
 }
 /* footer*/
 footer {
@@ -437,6 +436,6 @@ footer {
     margin-left: 0px;
   }
   .cart img {
-    width: 100px;
+    display: none;
   }
 }
