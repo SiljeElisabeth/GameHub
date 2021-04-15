@@ -270,6 +270,7 @@ p {
 .edit-button {
   position: relative;
   bottom: 30px;
+  text-decoration: var(--text-decoration);
 }
 .username-email {
   text-align: center;
@@ -286,10 +287,6 @@ p {
   background-color: #56b4c92f;
   width: 10em;
   height: 12em;
-}
-
-.addimagegrid {
-  grid-column: 2;
 }
 
 /* search results*/
