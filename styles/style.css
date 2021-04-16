@@ -222,9 +222,19 @@ p {
 .contact-info {
   border-style: solid;
   text-align: center;
-  padding: 20px;
+  padding: 60px 20px;
   height: 450px;
-  width: 700px;
+  width: 800px;
+}
+.contact-info h1 {
+  font-size: 2.5em;
+  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  opacity: 60%;
 }
 .contact img {
   max-width: 450px;
