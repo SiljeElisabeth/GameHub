@@ -229,7 +229,17 @@ p {
 .contact img {
   max-width: 450px;
 }
-
+.some-icons {
+  padding: 30px;
+  font-size: 1.3em;
+  color: #003877;
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+  padding: 10px;
+}
 /*Create Account page */
 
 .register-email {
@@ -442,5 +452,8 @@ footer {
 
   .contact img {
     display: none;
+  }
+  .contact-info {
+    padding-top: 150px;
   }
 }
