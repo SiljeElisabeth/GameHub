@@ -439,4 +439,8 @@ footer {
   .cart img {
     display: none;
   }
+
+  .contact img {
+    max-width: none;
+  }
 }
