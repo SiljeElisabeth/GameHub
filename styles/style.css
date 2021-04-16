@@ -466,4 +466,7 @@ footer {
   .contact-info {
     padding-top: 150px;
   }
+  .some-icons {
+    font-size: 2em;
+  }
 }
