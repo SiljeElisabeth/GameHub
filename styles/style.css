@@ -56,12 +56,6 @@ nav ul {
   font-weight: bold;
 }
 
-.topnav {
-  float: right;
-  padding: 6px;
-  margin-top: 8px;
-}
-
 .login {
   background-color: #003877;
   color: #ffff;
@@ -76,9 +70,18 @@ nav ul {
   color: #003877;
   text-decoration: var(--text-decoration);
 }
+
+.topnav {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+}
+
 .search-button {
   background-color: var(--links-color);
   color: #ffff;
+  padding: 1px 5px 2px 4px;
+  border-radius: 10%;
 }
 .icons {
   display: grid;
