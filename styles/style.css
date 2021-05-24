@@ -38,7 +38,7 @@ nav a,
 .icons,
 .account-links {
   color: var(--links-color);
-  text-decoration: var(--text-decoration);
+  text-decoration: none;
 }
 
 nav a:hover,
